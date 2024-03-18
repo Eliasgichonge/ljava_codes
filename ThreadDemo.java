@@ -2,7 +2,7 @@ public class ThreadDemo extends Thread {
     private Thread t;
     private String threadName;
 
-    ThreadDemo(String name) {
+    ThreadDemo(String name, PrintDemo pD) {
         threadName = name;
         System.out.println("Creating " + threadName);
     }

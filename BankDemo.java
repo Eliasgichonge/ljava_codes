@@ -9,7 +9,8 @@ public class BankDemo {
             c.withdraw(100.00);
             System.out.println("\nwithdrawing $600...");
             c.withdraw(600.00);
-        } catch (Insufficient e) {
+        } catch () {
+            Object e;
             System.out.println("Sorry, but you are short $" + e.getAmount());
             e.printStackTrace();
         }
