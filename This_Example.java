@@ -22,10 +22,10 @@ public class This_Example {
         int num = 20;
 
         // Printing the instance variable
-        System.out.println("value of local variable num is"+num);
+        System.out.println("value of local variable num is "+num);
 
         // printing the instance variable
-        System.out.println("value of instance variable num is"+this.num);
+        System.out.println("value of instance variable num is "+this.num);
 
         // Invoking the greet method of a class
         this.greet();
@@ -39,5 +39,8 @@ public class This_Example {
 
         // passing a new value to the num variable through parametrized constant
         This_Example obj2 = new This_Example(30);
+        
+        // invoking the print method again
+        obj2.print();
     }
 }
